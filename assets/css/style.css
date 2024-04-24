@@ -208,6 +208,20 @@ p:last-child {
     margin-top: 40px;
 }
 
+#name {
+    display: none;
+}
+
+@media only screen and (max-width: 400px) {
+    #full-name {
+        display: none;
+    }
+
+    #name {
+        display: block;
+    }
+}
+
 /*
 Section
 */
@@ -644,6 +658,7 @@ input::-ms-input-placeholder {
 }
 .main_service_area .single_service_right .single_service .single_service_content p{
     color:#333333;
+    font-size: medium;
 }
 
 .main_service_area .single_service_right .single_offer{
@@ -651,9 +666,17 @@ input::-ms-input-placeholder {
     margin-bottom: 45px;
     height: 750px;
 }
-
 .offer-content {
     height: 650px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main_service_area .single_service_right .single_offer{
+        height: 620px;
+    }
+    .offer-content {
+        height: 520px;
+    }
 }
 
 
@@ -677,7 +700,7 @@ input::-ms-input-placeholder {
     color:#ffffff;
 } 
 .main_choose_area .main_choose_content .single_choose_content p{
-    font-size:1.125rem;
+    font-size:large;
     color:#ffffff;
     line-height: 2rem;
     margin:40px 0px;
@@ -819,6 +842,7 @@ input::-ms-input-placeholder {
 }
 .counter .main_counter .single_counter_right p{
     color:#fefefe;
+    font-size: medium;
 }
 
 
@@ -868,7 +892,7 @@ input::-ms-input-placeholder {
 }
 .single_message_right_info li a{
     color: #fff;
-    font-size: 0.8125rem;
+    font-size: medium;
     padding-bottom: 2px;
     display: inline-block;
 }
