@@ -835,25 +835,93 @@ input::-ms-input-placeholder {
     line-height: 4rem;
     display: inline-block;
 }
-.counter .main_counter .single_counter_right h2{
-    color:#fff;
-    margin-bottom:30px;
+
+.counter .main_counter .single_counter_right h2 {
+    color: #fff;
+    margin-bottom: 30px;
     line-height: 0;
 }
-.counter .main_counter .single_counter_right p{
-    color:#fefefe;
+
+.counter .main_counter .single_counter_right p {
+    color: #fefefe;
     font-size: medium;
 }
 
+.feedback {
+    background: url(../images/bg3.png) no-repeat bottom center;
+    background-size: cover;
+}
+
+.feedback .overlay {
+    height: 575px;
+}
+
+.feedback-wrap h2,
+.feedback-wrap h3,
+.feedback-wrap h4,
+.feedback-wrap h5,
+.feedback-wrap p {
+    color: #ffffff;
+}
+
+.feedback .main_home {
+    padding-top: 100px;
+}
+
+.feedback .main_home h2 {
+    color: #fff;
+    padding-bottom: 25px;
+}
+
+.feedback .main_home p.subtitle {
+    color: #fff;
+    padding-bottom: 25px;
+    font-family: 'latolight';
+    font-size: 2.0625rem;
+    line-height: 3rem;
+}
+
+.feedback .main_home p.description {
+    color: #fff;
+    padding-bottom: 25px;
+    font-family: 'latolight';
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.feedback .main_home .video_play_icon a {
+    width: 175px;
+    height: 125px;
+    background: #032F3E;
+    display: inline-block;
+    text-align: center;
+    line-height: 140px;
+
+}
+
+.feedback .main_home .video_play_icon a i {
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+.feedback .owl-theme .owl-nav {
+    margin-top: 30px;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+}
 
 
 /*contact section css*/
-.contact{
+.contact {
     background: #232323;
-    color:#fff;
+    color: #fff;
 }
-.contact .head_title h2{
-    color:#fff;
+
+.contact .head_title h2 {
+    color: #fff;
 }
 .contact .form-control {
     display: inline-block;
