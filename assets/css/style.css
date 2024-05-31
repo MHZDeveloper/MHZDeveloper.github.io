@@ -848,7 +848,7 @@ input::-ms-input-placeholder {
 }
 
 .feedback {
-    background: url(../images/bg3.png) no-repeat bottom center;
+    background: url(../images/bg3.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -958,15 +958,16 @@ input::-ms-input-placeholder {
 .single_message_right_info li{
     margin-bottom: 20px;
 }
-.single_message_right_info li a{
+.single_message_right_info li a {
     color: #fff;
     font-size: medium;
     padding-bottom: 2px;
     display: inline-block;
+    white-space: nowrap;
 }
-.single_message_right_info li a i{
+.single_message_right_info li a i {
     padding-right: 10px;
-    font-size:1.875rem;
+    font-size: 1.4rem;
 }
 
 .offers_title{
